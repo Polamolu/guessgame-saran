@@ -1,0 +1,133 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+.head {
+  display: flex;
+  max-height: 25vh;
+  justify-content: space-between;
+}
+.div3 p {
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  justify-content: end;
+}
+.div2 h1 {
+  align-self: flex-end;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+  font-family: sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  padding-left: 75px;
+}
+.div1 button {
+  border: 0px;
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main2 {
+  height: 60px;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.main2 p {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 30px;
+}
+main {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto;
+  padding-bottom: 30px;
+}
+.main1 {
+  height: 6px;
+  background-color: white;
+  align-self: center;
+}
+.main3 {
+  height: 6px;
+  background-color: white;
+  align-self: center;
+}
+.submit {
+  border: 0px;
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  width: 120px;
+  align-self: center;
+}
+.guess {
+  padding: 30px 20px 30px 20px;
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.label-score {
+  color: white;
+}
+.score {
+  color: white;
+}
+.label-highscore {
+  color: white;
+}
+.highscore {
+  color: white;
+}
+.leo {
+  color: white;
+}
+.sec-2 p {
+  font-size: 24px;
+  font-weight: 300;
+}
+section {
+  display: flex;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.leo {
+  justify-self: flex-start;
+}
+.guess {
+  justify-self: flex-start;
+}
